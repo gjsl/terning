@@ -1,1 +1,37 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="H`tJw.D_`{8khPdwJX.R">terningen</variable><variable id="Sxs9y;lK#[$0sxz*i*o?">Sum</variable><variable id="o[5_u(5D?%V[^A4[e5$X">Terming2</variable><variable id="uQCG52;`@gp0[%.4LE4C">sprite</variable></variables></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="H`tJw.D_`{8khPdwJX.R">terningen</variable><variable id="Sxs9y;lK#[$0sxz*i*o?">Sum</variable><variable id="o[5_u(5D?%V[^A4[e5$X">Terming2</variable><variable id="uQCG52;`@gp0[%.4LE4C">sprite</variable></variables><block type="device_gesture_event" id="6:B1JsKd50TP%EvVx9vL" x="48" y="96"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="controls_repeat_ext" id="~D7K@m?{kSV6[EFWXQzk"><value name="TIMES"><shadow type="math_whole_number" id="FH(LHQ}uoETVSu61G6v*"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="variables_set" id="BtYzp:w,{?9D}Ob.2pbC"><field name="VAR" id="H`tJw.D_`{8khPdwJX.R">terningen</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="P@W:kMLF^Nk]#x=SCkMr"><value name="min"><shadow type="math_number" id="rG@Kzld|RZ@:rzn/x?#t"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="gkV[-KkrvM5X-Hl-G7F."><field name="NUM">6</field></shadow></value></block></value><next><block type="device_show_number" id="REm.^;{~Kj1?xD=e*FO+"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id=";kp=8QWig1)P_Z@./4E["><field name="VAR" id="H`tJw.D_`{8khPdwJX.R">terningen</field></block></value></block></next></block></statement><next><block type="controls_if" id="US@!of~i;n);|Gkw}|I@"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="ruyoP4l!4TqOY-A4,hzJ"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="%m)Za_Z@3wD~0Uxk[kS#"><field name="VAR" id="H`tJw.D_`{8khPdwJX.R">terningen</field></block></value><value name="B"><shadow type="math_number" id="zDUjSrP:SM$t6eOMDa6V"><field name="NUM">6</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="9y@b=_BLx#`Sg=EB7OSf"><field name="LEDS">`
+        . . . # . 
+        . . # . . 
+        . # # # . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement><next><block type="controls_if" id="[JHkl0!N7CJ}@sJuA#Bt"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="sjFrr9/s@VW-2-maxVjG"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="woFgxGI5CA7|nt)Zq;Fb"><field name="VAR" id="H`tJw.D_`{8khPdwJX.R">terningen</field></block></value><value name="B"><shadow type="math_number" id="O;JXWlV@Qk[yuYpcvL2h"><field name="NUM">5</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="cG/[6TSTX@dqdFf8ahdf"><field name="LEDS">`
+        # # # # # 
+        # . . . . 
+        # # # # . 
+        . . . . # 
+        # # # # .
+        `</field></block></statement><next><block type="controls_if" id="_4(wz5gQl+H:Ht_3Q3m`"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="]M.vu6Y@#i?RGlks=~|!"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="3WdFsSB)_/V?6kAld!nU"><field name="VAR" id="H`tJw.D_`{8khPdwJX.R">terningen</field></block></value><value name="B"><shadow type="math_number" id="P64yoq1@C[O0g0!N2s6-"><field name="NUM">4</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="+,X#f$AHnZ27zS)nFgq~"><field name="LEDS">`
+        . . # # . 
+        . # . # . 
+        # . . # . 
+        # # # # # 
+        . . . # .
+        `</field></block></statement><next><block type="controls_if" id="7!.l%KxgVCXpgFnBOGnW"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="y9MMuoCa1c$ZAI#J1}.7"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="=rY8v_$dk@i1a1zR=_nD"><field name="VAR" id="H`tJw.D_`{8khPdwJX.R">terningen</field></block></value><value name="B"><shadow type="math_number" id="kL1}`kG4uAxJ2{*7iREq"><field name="NUM">3</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id=":tdl)S/0q1-]J/f{Bxx!"><field name="LEDS">`
+        # # # # . 
+        . . . # . 
+        . . # . . 
+        # . . # . 
+        . # # . .
+        `</field></block></statement><next><block type="controls_if" id="eDT~W-4r({2W#n`$OvPz"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Y;[R51u_jv!t|b=}=!Vu"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="3htrdUj.sf*{Ce46|V:_"><field name="VAR" id="H`tJw.D_`{8khPdwJX.R">terningen</field></block></value><value name="B"><shadow type="math_number" id="Uwgg12C0`/qWX4_MTgVx"><field name="NUM">2</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="W222%5_fcC)-i7mU;T+U"><field name="LEDS">`
+        # # # . . 
+        . . . # . 
+        . # # . . 
+        # . . . . 
+        # # # # .
+        `</field></block></statement><next><block type="controls_if" id="@78?;6/Dpq)xOIx;dgpc"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="j3K:%P~(lajIC-)vh/7h"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="ninJla96Gw9.`*.;sVKr"><field name="VAR" id="H`tJw.D_`{8khPdwJX.R">terningen</field></block></value><value name="B"><shadow type="math_number" id="BHi}gd)7Af8J;E(IJx_f"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="nebut$kZWmY|+#W+]Y{r"><field name="LEDS">`
+        . . # . . 
+        . # # . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field></block></statement></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
